@@ -1,11 +1,11 @@
 
-%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+%<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Company</title>
+<title>Admin</title>
         <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="css/bootstrap-responsive.min.css" rel="stylesheet">
         <link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -20,7 +20,7 @@
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.html">Company </a>
+                        <i class="icon-reorder shaded"></i></a><a class="brand" href="index.html">Admin </a>
                     <div class="nav-collapse collapse navbar-inverse-collapse">
                         <ul class="nav nav-icons">
                             <li class="active"><a href="#"><i class="icon-envelope"></i></a></li>
@@ -33,17 +33,7 @@
                             <i class="icon-search"></i>
                         </button>
                         </form>
-                        <ul class="nav pull-right">
-                           <!-- <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
-                                <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Item No. 1</a></li>
-                                    <li><a href="#">Don't Click</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Example Header</li>
-                                    <li><a href="#">A Separated link</a></li>
-                                </ul>
-                            </li>
+                        
                             <li><a href="#">Support </a></li>-->
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="images/user.png" class="nav-avatar" />
@@ -80,8 +70,10 @@
                                 <li><a href="cproduct"><i class="menu-icon icon-paste"></i>Add product</a></li>
                                 <li><a href="stock"><i class="menu-icon icon-table"></i>Add stock</a></li>
                                 <li><a href="viewsupp"><i class="menu-icon icon-table"></i>Add suppliers</a></li>
-                                <li><a href="discount"><i class="menu-icon icon-table"></i>Add discount</a></li>
-                                <li><a href="vieworder"><i class="menu-icon icon-table"></i>View orders</a></li>
+                                <li><a href="discount"><i class="menu-icon icon-table"></i>Add supplier discount</a></li>
+                                   <li><a href="udiscount"><i class="menu-icon icon-table"></i>Add user discount</a></li>
+                                <li><a href="vieworder"><i class="menu-icon icon-table"></i>View  Customer orders</a></li>
+                                 <li><a href="viewsorder"><i class="menu-icon icon-table"></i>Supplier orders</a></li>
                                 <li><a href="viewcust"><i class="menu-icon icon-table"></i>View customers</a></li>
                                   <li><a href="signout"><i class="menu-icon icon-table"></i>signout</a></li>
                                  </ul>
